@@ -9,10 +9,6 @@ This project demonstrates how to deploy a solution consisting of an EC2 instance
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Deployment Steps](#deployment-steps)
-- [Folder Structure](#folder-structure)
-- [Running the Project](#running-the-project)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -94,12 +90,3 @@ terraform apply "project1.tfplan"
 
 # Apply Infrastructure Changes for Project 2
 terraform apply "project2.tfplan"
-
-This set of commands performs the following actions:
-
-Clones the repository.
-Navigates to the project directory.
-Initializes Terraform.
-Plans the infrastructure for both Project 1 and Project 2, generating separate plan files.
-Applies the infrastructure changes for Project 1 using the generated plan file.
-Applies the infrastructure changes for Project 2 using the generated plan file.
