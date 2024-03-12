@@ -1,0 +1,14 @@
+region                   = "us-west-2"
+vpc_cidr                 = "10.0.0.0/16"
+public_subnet_cidr       = "10.0.1.0/24"
+private_subnet_cidr      = "10.0.2.0/24"
+bucket_name              = "anan--bucket2"
+dynamodb_table_name      = "anan--table2"
+dynamodb_billing_mode    = "PAY_PER_REQUEST"
+dynamodb_hash_key        = "id"
+dynamodb_hash_key_type   = "S"
+ec2_ami                  = "ami-08f7912c15ca96832"
+ec2_instance_type        = "t2.micro"
+ec2_security_group_ids = ["sg-0bcae8d409d9f2569", "sg-0dca9fcd7367275a1"]
+service_name = "com.amazonaws.us-west-2.proj2_s3"
+

@@ -1,0 +1,13 @@
+region                   = "us-east-1"
+vpc_cidr                 = "10.0.0.0/16"
+public_subnet_cidr       = "10.0.1.0/24"
+private_subnet_cidr      = "10.0.2.0/24"
+bucket_name              = "anan--bucket"
+dynamodb_table_name      = "anan--table"
+dynamodb_billing_mode    = "PAY_PER_REQUEST"
+dynamodb_hash_key        = "id"
+dynamodb_hash_key_type   = "S"
+ec2_ami                  = "ami-006dcf34c09e50022"
+ec2_instance_type        = "t2.micro"
+ec2_security_group_ids = ["sg-044bb92facff9f2e3", "sg-0352294c18865d1ec"]
+
