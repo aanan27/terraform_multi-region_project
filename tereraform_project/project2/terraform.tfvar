@@ -10,5 +10,5 @@ dynamodb_hash_key_type   = "S"
 ec2_ami                  = "ami-08f7912c15ca96832"
 ec2_instance_type        = "t2.micro"
 ec2_security_group_ids = ["sg-0bcae8d409d9f2569", "sg-0dca9fcd7367275a1"]
-service_name = "com.amazonaws.us-west-2.proj2_s3"
+service_name = "com.amazonaws.us-west-2.s3"
 
